@@ -1,0 +1,41 @@
+
+https://faker.readthedocs.io/en/latest/providers/faker.providers.credit_card.html
+
+Providers
+faker.providers.address
+faker.providers.automotive
+faker.providers.bank
+faker.providers.barcode
+faker.providers.color
+faker.providers.company
+faker.providers.credit_card
+faker.providers.currency
+faker.providers.date_time
+faker.providers.file
+faker.providers.internet
+faker.providers.isbn
+faker.providers.job
+faker.providers.lorem
+faker.providers.misc
+faker.providers.person
+faker.providers.phone_number
+faker.providers.profile
+faker.providers.python
+faker.providers.ssn
+faker.providers.user_agent
+
+faker.providers.credit_card
+fake.credit_card_provider(card_type=None)
+# 'VISA 16 digit'
+
+fake.credit_card_number(card_type=None)
+# '344345591564442'
+
+fake.credit_card_security_code(card_type=None)
+# '497'
+
+fake.credit_card_full(card_type=None)
+# 'Mastercard\nAnn Young\n2221982199677590 01/19\nCVV: 065\n'
+
+fake.credit_card_expire(start="now", end="+10y", date_format="%m/%y")
+# '06/25'
